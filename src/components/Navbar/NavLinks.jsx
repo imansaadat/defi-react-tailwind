@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-scroll';
 
-const NavLinks = ({ py}) => {
+const NavLinks = ({ py,onClick}) => {
 	const Links = [
 		{
 			name: 'Platform',
@@ -25,7 +25,7 @@ const NavLinks = ({ py}) => {
 			{
 				Links.map((link, index) => (
 						<li key={index} className={py}>
-							<Link to={link.path} smooth={true} duration={500}>
+							<Link to={link.path} smooth={true} duration={500} onClick={onClick}>
 								{link.name}
 							</Link>
 						</li>

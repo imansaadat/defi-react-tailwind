@@ -40,7 +40,7 @@ const Navbar = () => {
             {/* Mobile menu */}
             <div className={`flex flex-col justify-center items-center md:hidden w-full absolute top-0 duration-500 h-screen bg-black opacity-95 ${nav ? 'left-0' : 'left-[-100%]'}`}>
                <ul className='flex flex-col items-center'>
-                  <NavLinks py='py-4' />
+                  <NavLinks py='py-4' onClick={handleNav} />
                </ul>
                <Button text='Use Defi' />
             </div>
