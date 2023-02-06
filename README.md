@@ -1,3 +1,5 @@
+# Responsive Defi website with React JS and Tailwind
+![Responsive Defi website with React JS and Tailwind](./src/assets/design.png)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
